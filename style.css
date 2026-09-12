@@ -1,0 +1,444 @@
+body{
+    font-family: Mountains;
+    margin: 0px;
+}
+
+.hero{
+    position:relative;
+    overflow: hidden;
+    height: 100vh;
+    
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+.hero video{
+    position:absolute;
+    inset:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.herotxt{
+    position: relative;
+    text-align: center;
+
+}
+
+
+
+@font-face {
+    font-family: Mountains ;
+    src:url(GondensDEMO.otf);
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+h1{
+    padding-top: 15vh;
+    font-size: 150;
+    margin-bottom: 0px;
+
+}
+
+
+h2{
+    padding-top: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 50;
+
+}
+
+
+
+
+.info{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    display: flex;
+    background: linear-gradient(to right, #843126, #6d1103) ; 
+    text-shadow: 0px 0px 10px  black;
+
+}
+
+
+.info img{
+    width: 40%;
+}
+
+
+.info-text{
+    padding-left:5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+
+
+
+
+.info-text h3{
+    margin: 5px auto;
+    padding-top: 5%;
+    padding-bottom: 0px;
+    font-size: 100;
+}
+.info-text h4{
+    margin: 5px auto;
+    padding-top: 5%;
+    padding-bottom: 0px;
+
+    font-size: 50;
+}
+
+.info-text p{
+    font-size: 25px;
+    margin: 0px auto ;
+}
+
+.ending{
+    margin: 5% 5%;
+    background: gra;
+}
+
+
+.ending h5{
+    margin: 5px auto;
+    padding-top: 5%;
+    padding-bottom: 0px;
+    font-size: 90;
+}
+
+.ending p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30;
+}
+
+
+.resources{
+    margin: 5% 5%;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.resources button{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+
+
+    width: 700px;
+    height: 400px;
+    margin: 30px 10px;
+
+    font-family: mountains;
+    color: aliceblue;
+
+    font-size: 50;
+    font-weight: 700;
+    text-shadow: 0px 0px 20px black ;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    align-items:center;
+    overflow: hidden;
+}
+
+.resources button span{
+    z-index: 1;
+}
+
+
+.resources button:hover {
+    font-size: 70;
+    text-shadow: 0px 0px 30px whitesmoke;
+    z-index: 1;
+}
+
+.resources > div:nth-child(1) > button:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1618083707368-b3823daa2726?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.resources > div:nth-child(1) > button:nth-child(1):hover:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1618083707368-b3823daa2726?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    inset: -50px;
+    z-index: 0;
+}
+
+
+
+.resources > div:nth-child(1) > button:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://plus.unsplash.com/premium_photo-1682310093719-443b6fe140e8?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGhhemFyZHxlbnwwfDB8MHx8fDA%3Da");
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.resources > div:nth-child(1) > button:nth-child(2):hover:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://plus.unsplash.com/premium_photo-1682310093719-443b6fe140e8?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGhhemFyZHxlbnwwfDB8MHx8fDA%3Da");
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    inset: -50px;
+    z-index: 0;
+}
+
+
+.resources > div:nth-child(2) > button:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1763154045739-b53b2744dd5e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW4lMjBob2xpZGF5cyUyMG1lbW9yaWVzfGVufDB8MHwwfHx8MA%3D%3D");
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.resources > div:nth-child(2) > button:nth-child(1):hover:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1763154045739-b53b2744dd5e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW4lMjBob2xpZGF5cyUyMG1lbW9yaWVzfGVufDB8MHwwfHx8MA%3D%3D");
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    inset: -50px;
+    z-index: 0;
+}
+
+.resources > div:nth-child(2) > button:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1683009427513-28e163402d16?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGV4cGxvcmV8ZW58MHwwfDB8fHww");
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.resources > div:nth-child(2) > button:nth-child(2):hover:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1683009427513-28e163402d16?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGV4cGxvcmV8ZW58MHwwfDB8fHww");
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    inset: -50px;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
